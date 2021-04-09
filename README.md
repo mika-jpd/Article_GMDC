@@ -1,6 +1,4 @@
-# WebsCrapping-and-GMDC
-
-***Work in progress!***
+# WebsCrapping-and-GMDC ***Work in progress!***
 
 The goal of this project is to create a Webscraper to scrape news articles from the NPR website and then classify the articles into different clusters. 
 This program uses KMeans algorithm to produce an initial clustering. This will serve as the initialization clusters for the Gaussian Mixture document classification model.
