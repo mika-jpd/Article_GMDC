@@ -59,7 +59,7 @@ class ScrapedArticles():
                 word_count[s][i] += 1
         self.wordFreq = word_count
 
-        #apply sqrt to reduce influence of high count
+        #apply sqrt to reduce the influence of high word counts
         for s in range(0, len(self.wordFreq)):
             for word in self.wordFreq[s]:
                 count = self.wordFreq[s][word]
